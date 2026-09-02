@@ -1,9 +1,9 @@
-# @obinexusltd/obix-adapter-oop
+# obix-adapter-oop
 
 **The OOP projection — a generated class.**
 
 ```bash
-npm install @obinexusltd/obix-adapter-oop
+npm install obix-adapter-oop
 ```
 
 ## API
@@ -25,7 +25,7 @@ Every generated `Start` / `Tick` / … method delegates to `dispatch`, which cal
 
 ## Dependency role
 
-`obix-spec` + `obix-ir`. Consumed by `obix-test` and `obix-timer`.
+`obix-spec` + `obix-ir`. Consumed by `obix-equivalence` and `obix-timer`.
 
 ## Level 0 status
 

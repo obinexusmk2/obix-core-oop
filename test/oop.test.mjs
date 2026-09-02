@@ -1,7 +1,7 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 import { toOOP } from "../dist/index.js";
-import { TimerDOP } from "@obinexusltd/obix-timer";
+import { TimerDOP } from "obix-timer";
 
 test("generated action methods delegate to applyAction; derived are getters", () => {
   const Timer = toOOP(TimerDOP);

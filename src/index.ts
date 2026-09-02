@@ -1,12 +1,12 @@
 /**
- * @obinexusltd/obix-adapter-oop
+ * obix-adapter-oop
  *
  * The OOP projection: a generated class. `state` and `props` are private;
  * `props` is frozen; `state` is read-only from outside. Every generated action
  * method (`Start(payload)`, `Tick(payload)`, …) delegates to `dispatch`, which
  * calls obix-ir.applyAction. There is never a second implementation of an action.
  */
-import { applyAction } from "@obinexusltd/obix-ir";
+import { applyAction } from "obix-ir";
 import type {
   DOPArtifact,
   State,
@@ -14,7 +14,7 @@ import type {
   Payload,
   ActionTrace,
   ValidationResult,
-} from "@obinexusltd/obix-spec";
+} from "obix-spec";
 
 export interface OOPInstance<S extends object, P extends object> {
   readonly state: S;

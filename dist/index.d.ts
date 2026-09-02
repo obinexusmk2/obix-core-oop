@@ -1,4 +1,4 @@
-import type { DOPArtifact, State, Props, Payload, ActionTrace, ValidationResult } from "@obinexusltd/obix-spec";
+import type { DOPArtifact, State, Props, Payload, ActionTrace, ValidationResult } from "obix-spec";
 export interface OOPInstance<S extends object, P extends object> {
     readonly state: S;
     readonly props: P;

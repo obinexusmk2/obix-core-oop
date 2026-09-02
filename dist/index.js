@@ -1,4 +1,4 @@
-import { applyAction } from "@obinexusltd/obix-ir";
+import { applyAction } from "obix-ir";
 export function toOOP(artifact) {
     class Component {
         #state;
