@@ -1,5 +1,5 @@
 {
-  "name": "obix-adapter-oop",
+  "name": "obix-core-oop",
   "version": "0.2.1",
   "description": "OBIX OOP projection — a generated class with private state/props, frozen props, read-only external state, and generated action methods that all delegate to obix-ir.applyAction. Depends on obix-spec and obix-ir.",
   "license": "MIT",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/obinexusmk2/obix-monorepo-2026.git",
+    "url": "git+https://github.com/obinexusmk2/obix-core-oop.git",
     "directory": "packages/obix-adapter-oop"
   }
 }
