@@ -1,4 +1,4 @@
-# obix-adapter-oop
+# obix-core-oop
 
 **The OOP projection — a generated class.**
 
